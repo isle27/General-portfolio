@@ -1,0 +1,9 @@
+{
+  "name": "general-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix elsa-portfolio run dev",
+    "build": "npm --prefix elsa-portfolio run build",
+    "check": "npm --prefix elsa-portfolio run check"
+  }
+}
