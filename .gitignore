@@ -1,0 +1,9 @@
+node_modules/
+public/
+.vercel/
+.local-history/
+.env*
+!.env.example
+*.tar.gz
+portfolio-desktop.png
+portfolio-mobile.png

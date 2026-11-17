@@ -1,9 +1,10 @@
 {
   "name": "general-portfolio",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "npm --prefix elsa-portfolio run dev",
-    "build": "npm --prefix elsa-portfolio run build",
+    "build": "node build-vercel.mjs",
     "check": "npm --prefix elsa-portfolio run check"
   }
 }
