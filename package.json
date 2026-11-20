@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "npm --prefix elsa-portfolio run dev",
-    "build": "node build-vercel.mjs",
-    "check": "npm --prefix elsa-portfolio run check"
+    "build": "npm run check && node build-vercel.mjs",
+    "check": "npm --prefix elsa-portfolio run check && node --test tests/*.test.js",
+    "test": "node --test tests/*.test.js"
   }
 }
